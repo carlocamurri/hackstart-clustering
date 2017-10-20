@@ -7,7 +7,9 @@ To get started, open Terminal/cmd, navigate (using `cd <your_folder_here>`) to a
 `git clone https://github.com/carlocamurri/hackstart-clustering.git`
 <br />
 <br />
-This should copy the project folder (hackstart-clustering) into the directory you're currently in. Enter the following commands: <br />
+This should copy the project folder (hackstart-clustering) into the directory you're currently in. Enter the following commands: 
+<br />
+<br />
 `cd hackstart-clustering`
 <br />
 `jupyter notebook`
