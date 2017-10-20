@@ -1,4 +1,4 @@
-# hackstart-clustering
+# Hackstart Workshop: Some data analysis and clustering in Python
 Basic data analysis using Python and Numpy
 <br />
 <br />
