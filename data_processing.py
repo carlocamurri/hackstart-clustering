@@ -119,7 +119,7 @@ iris = load_iris()
 X = iris.data
 y = iris.target
 
-#display_iris(X, y)
+
 
 
 
@@ -134,6 +134,7 @@ Clustering is a method of grouping data points in different groups, called clust
 
 Data points in the same clusters are similar to one another
 """
+# To display data: display_iris(X, y)
 
 
 
@@ -142,6 +143,8 @@ Data points in the same clusters are similar to one another
 
 
 
+
+# To plot: plot_scatter(petal_lengths, petal_widths, y)
 
 
 
@@ -176,6 +179,7 @@ Data points in the same clusters are similar to one another
 
 
 # 3. Select n random points from the data
+# To plot: plot_centroids(petal_lengths, petal_widths, centroids[:, 0], centroids[:, 1])
 
 
 
@@ -183,6 +187,7 @@ Data points in the same clusters are similar to one another
 
 # 4. Repeat the following:
 # a. Label each point to a centroid
+# To plot: plot_kmeans(petal_features[:, 0], petal_features[:, 1], centroids[:, 0], centroids[:, 1], labels)
 
 
 
@@ -190,7 +195,7 @@ Data points in the same clusters are similar to one another
 
 
 # b. Find new centroids from mean of labeled points
-
+# To plot: plot_scatter(petal_features[:, 0], petal_features[:, 1], new_centroids[:, 0], new_centroids[:, 1])
 
 
 
@@ -200,5 +205,5 @@ Data points in the same clusters are similar to one another
 
 
 # Put it all together
-
+# plot_kmeans(matrix[:, 0], matrix[:, 1], centroids[:, 0], centroids[:, 1], labels)
 
