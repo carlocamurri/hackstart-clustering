@@ -195,7 +195,7 @@ Data points in the same clusters are similar to one another
 
 
 # b. Find new centroids from mean of labeled points
-# To plot: plot_scatter(petal_features[:, 0], petal_features[:, 1], new_centroids[:, 0], new_centroids[:, 1])
+# To plot: plot_centroids(petal_features[:, 0], petal_features[:, 1], new_centroids[:, 0], new_centroids[:, 1])
 
 
 
@@ -205,5 +205,5 @@ Data points in the same clusters are similar to one another
 
 
 # Put it all together
-# plot_kmeans(matrix[:, 0], matrix[:, 1], centroids[:, 0], centroids[:, 1], labels)
+# To plot: plot_kmeans(matrix[:, 0], matrix[:, 1], centroids[:, 0], centroids[:, 1], labels)
 
